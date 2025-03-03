@@ -12,7 +12,7 @@ function App() {
     <div>
         <h2>Post:</h2>
         {data ? <p>{data.title}</p> : <p>Loading...</p>}
-        </div>
+    </div>
   )
 }
 
