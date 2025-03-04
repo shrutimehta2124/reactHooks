@@ -1,15 +1,15 @@
 import React, { useState, useMemo } from 'react';
 
 function App() {
-  // State to hold the value of 'n' for the Fibonacci calculation (initially set to 10)
+  // State to hold the value of 'n' for the Fibonacci calculation (default  10)
   const [n, setN] = useState(10);
 
   // Memoizing the Fibonacci result to avoid unnecessary recalculation on every render
   const fib = useMemo(() => {
     // Helper function to calculate Fibonacci recursively
     const calculateFib = (n) => {
-      if (n <= 1) return n; // Base case: if n is 0 or 1, return n
-      return calculateFib(n - 1) + calculateFib(n - 2); // Recursive case
+      if (n <= 1) return n; // if n is 0 or 1, return n
+      return calculateFib(n - 1) + calculateFib(n - 2); // Recursive call
     };
 
     return calculateFib(n); // Calculate and return the Fibonacci number for the given n
