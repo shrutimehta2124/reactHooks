@@ -1,4 +1,5 @@
 # reactHooks
+State Mangement :- https://www.freecodecamp.org/news/react-state-management/#:~:text=State%20management%20is%20a%20crucial,placed%20in%20your%20applications
 Example of all the react hooks 
 what is react hooks :- https://www.freecodecamp.org/news/react-hooks-fundamentals/
                       https://medium.com/@AbidKazmi/all-react-hooks-in-one-short-4b0ed4b5a6e4
@@ -72,3 +73,19 @@ Syntax
 const memoizedCallback = useCallback(() => {
     // Function logic
 }, [dependencies]);
+
+
+
+useReducer hook
+https://www.freecodecamp.org/news/react-usereducer-hook/
+The useReducer hook allows you to manage complex state in a functional component. It’s similar to the useState hook, but instead of a simple value, it takes a reducer function and an initial state.
+
+A useReducer is a hook in React that allows you add a reducer to your component. It takes in the reducer function and an initialState as arguments. The useReducer also returns an array of the current state and a dispatch function.
+
+const [state, dispatch] = useReducer(reducer, initialState);
+Let's familiarize ourselves with what the parameters mean:
+
+state: represents the current value and is set to the initialState value during the initial render.
+dispatch: is a function that updates the state value and always triggers a re-render, just like the updater function in useState.
+reducer: is a function that houses all the logic of how the state gets updated. It takes state and action as arguments and returns the next state.
+initialState: houses the initial value and can be of any type.
