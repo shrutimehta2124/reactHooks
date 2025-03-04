@@ -59,3 +59,16 @@ The second argument is an array of dependencies. When any of these dependencies 
 
 
 In simple terms, useMemo is like having a smart assistant who remembers the answers to math problems, so you don't have to solve them again and again.
+
+
+
+USECALLBACK
+https://medium.com/@amanrags/usecallback-hook-in-react-2b9346380c04
+https://www.geeksforgeeks.org/react-js-usecallback-hook/
+The useCallback hook is a performance optimization mechanism in React that helps prevent unnecessary re-renders of child components when their parent component re-renders. It achieves this by memoizing (caching) callback functions based on their dependencies
+When to Use useCallback:Passing callbacks as props to child components,Callbacks that are expensive to create.
+Syntax
+
+const memoizedCallback = useCallback(() => {
+    // Function logic
+}, [dependencies]);
