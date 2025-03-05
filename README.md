@@ -89,3 +89,9 @@ state: represents the current value and is set to the initialState value during 
 dispatch: is a function that updates the state value and always triggers a re-render, just like the updater function in useState.
 reducer: is a function that houses all the logic of how the state gets updated. It takes state and action as arguments and returns the next state.
 initialState: houses the initial value and can be of any type.
+
+
+USECONTEXT HOOKS
+https://medium.com/zestgeek/mastering-reacts-usecontext-hook-simplifying-state-management-65894e6dc431
+
+The useContext hook allows you to access a context object in a functional component. Context is a way to pass data down the component tree without having to pass props manually.
