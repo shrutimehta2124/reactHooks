@@ -1,5 +1,8 @@
 # reactHooks
 State Mangement :- https://www.freecodecamp.org/news/react-state-management/#:~:text=State%20management%20is%20a%20crucial,placed%20in%20your%20applications
+
+ContextApi:-https://www.freecodecamp.org/news/react-context-api-explained-with-examples/
+
 Example of all the react hooks 
 what is react hooks :- https://www.freecodecamp.org/news/react-hooks-fundamentals/
                       https://medium.com/@AbidKazmi/all-react-hooks-in-one-short-4b0ed4b5a6e4

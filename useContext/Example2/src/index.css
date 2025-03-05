@@ -1,0 +1,19 @@
+/* src/styles.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+h2 {
+  color: #333;
+}

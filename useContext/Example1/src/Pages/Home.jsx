@@ -5,7 +5,6 @@ const Home = () => {
     return (
         <div>
             <ThemeButton />
-           
             <HooksList />
         </div>
     );
