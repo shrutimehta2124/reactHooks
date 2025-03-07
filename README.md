@@ -98,3 +98,10 @@ USECONTEXT HOOKS
 https://medium.com/zestgeek/mastering-reacts-usecontext-hook-simplifying-state-management-65894e6dc431
 
 The useContext hook allows you to access a context object in a functional component. Context is a way to pass data down the component tree without having to pass props manually.
+
+
+
+what is Redux :- https://www.freecodecamp.org/news/how-to-use-redux-in-reactjs-with-real-life-examples-687ab4441b85/
+https://dev.to/raaynaldo/redux-toolkit-setup-tutorial-5fjf
+https://www.freecodecamp.org/news/redux-and-redux-toolkit-for-beginners/
+reduxtoolkit better than redux https://www.geeksforgeeks.org/why-redux-toolkit-is-preferred-over-redux/
